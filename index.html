@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CuanAcademy | Belajar Trading Modern</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+        }
+
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .glass-card:hover {
+            border-color: #3b82f6;
+            transform: translateY(-5px);
+        }
+
+        .gradient-text {
+            background: linear-gradient(90deg, #3b82f6, #2dd4bf);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="flex justify-between items-center px-8 py-6 max-w-7xl mx-auto">
+        <div class="text-2xl font-bold tracking-tighter">
+            CUAN<span class="text-blue-500">ACADEMY</span>
+        </div>
+        <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-400">
+            <a href="#" class="hover:text-white transition">Kurikulum</a>
+            <a href="#" class="hover:text-white transition">Market Review</a>
+            <a href="#" class="hover:text-white transition">Komunitas</a>
+            <a href="#" class="hover:text-white transition">Pricing</a>
+        </div>
+        <button class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full text-sm font-semibold transition">
+            Mulai Belajar
+        </button>
+    </nav>
+
+    <header class="max-w-7xl mx-auto px-8 py-20 text-center">
+        <span class="px-4 py-1.5 rounded-full border border-blue-500/30 text-blue-400 text-xs font-bold uppercase tracking-widest">
+            Edisi Terbatas 2026
+        </span>
+        <h1 class="mt-8 text-5xl md:text-7xl font-bold leading-tight">
+            Kuasai Market dengan <br> <span class="gradient-text">Logika, Bukan Insting.</span>
+        </h1>
+        <p class="mt-6 text-slate-400 text-lg max-w-2xl mx-auto">
+            Pelajari strategi trading dari nol hingga mahir dengan kurikulum yang terstruktur, data yang akurat, dan komunitas yang suportif.
+        </p>
+        <div class="mt-10 flex flex-col md:flex-row justify-center gap-4">
+            <button class="bg-white text-slate-900 px-8 py-4 rounded-xl font-bold hover:bg-slate-200 transition shadow-lg shadow-white/10">
+                Akses Kelas Gratis
+            </button>
+            <button class="glass-card px-8 py-4 rounded-xl font-bold hover:bg-slate-800 transition">
+                Lihat Roadmap
+            </button>
+        </div>
+    </header>
+
+    <section class="max-w-7xl mx-auto px-8 py-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="glass-card p-8 rounded-3xl">
+            <div class="w-12 h-12 bg-blue-500/20 rounded-xl flex items-center justify-center text-blue-400 mb-6">
+                <i class="fas fa-book-open text-xl"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-3">Kurikulum Terarah</h3>
+            <p class="text-slate-400 text-sm leading-relaxed">Dari pengenalan candlestick hingga psikologi trading tingkat lanjut.</p>
+        </div>
+
+        <div class="glass-card p-8 rounded-3xl">
+            <div class="w-12 h-12 bg-teal-500/20 rounded-xl flex items-center justify-center text-teal-400 mb-6">
+                <i class="fas fa-chart-line text-xl"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-3">Live Trading Session</h3>
+            <p class="text-slate-400 text-sm leading-relaxed">Bedah market secara real-time bersama mentor profesional setiap minggu.</p>
+        </div>
+
+        <div class="glass-card p-8 rounded-3xl">
+            <div class="w-12 h-12 bg-purple-500/20 rounded-xl flex items-center justify-center text-purple-400 mb-6">
+                <i class="fas fa-users text-xl"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-3">Private Community</h3>
+            <p class="text-slate-400 text-sm leading-relaxed">Diskusikan sinyal dan analisa bersama ribuan trader lainnya.</p>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-8 py-20">
+        <div class="glass-card p-4 rounded-3xl overflow-hidden text-center">
+            <p class="text-slate-500 text-sm mb-4 italic">Live Market Preview</p>
+            <div class="h-64 flex items-center justify-center border border-dashed border-slate-700 rounded-2xl">
+                <span class="text-slate-600 font-mono">[ Widget Chart TradingView Akan Muncul Di Sini ]</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="max-w-7xl mx-auto px-8 py-10 border-t border-slate-800 text-center text-slate-500 text-sm">
+        <p>&copy; 2026 CuanAcademy. Trading memiliki risiko tinggi. Belajar dengan bijak.</p>
+    </footer>
+
+</body>
+</html>
